@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    background-color: rgba(199, 199, 199, 0.466);
+    text-align: center;
+    margin: 10%;
+    padding: 1px 0;
+    box-shadow: 0 0 8px 0 #000;
+    border-radius: 12px;
+    
+}
+article{
+    background-color: rgba(179, 179, 179, 0.651);
+    margin: 4%;
+    padding: 5% 0;
+    border-radius: 10px;
+}
+p{
+    background-color: honeydew;
+    height: 60px;
+    font-size: 1.8em;
+    padding-top: 4%;
+    
+}
+select{
+    font-size: 1.7em;
+    margin-top: 1%;
+    width: 50%;
+    text-align: center;
+}
+select:hover{
+    border: 1px solid ;
+    background-color: rgb(63, 75, 236);
+}
+input[type="text"]{
+  margin-top: 4%;
+  font-size: 2em;
+  text-align: center;
+  padding: 1%;
+}
+input[type=button] {
+          padding: 22.7px 30%;
+          box-sizing:content-box;
+          border-radius: 15px;
+          margin: 4%;
+          font-size: 1.5em;
+
+}
+input[type=button]:hover{
+    animation-name: example;
+    animation-duration: 18s;
+    transition: ease;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    15%  {background-color: yellow;}
+    35%  {background-color: blue;}
+    50% {background-color: green;}
+    70% {background-color: rgb(79, 128, 0);}
+    100% {background-color: rgb(128, 41, 0);}
+}
