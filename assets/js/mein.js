@@ -31,7 +31,7 @@ function steuer2018() {
         Est = (220.13 * y + 2397) * y + 948.49;
         //txt.innerHTML = "Steuer: " + Est ;
     }
-    else if (geld >= 55961 && geld <= 265326) {
+    else if (geld >= 54950 && geld <= 260532) {
         console.log("geld " + geld);
         Est = 0.42 * geld - 8621.75;
         //let y = getY(geld,9000);
